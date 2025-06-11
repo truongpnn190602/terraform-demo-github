@@ -26,7 +26,7 @@ variable "subnets_in_vpc" {
 variable "msk_cluster_name" {
   description = "AWS MSK cluster name"
   type        = string
-  default     = "truong-msk"
+  default     = "truong-msk-testing-2"
 }
 
 variable "region_name" {
