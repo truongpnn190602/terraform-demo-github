@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "truong-msk-terraform-state"
-    key    = "sample/msk/terraform.tfstate"
+    key    = "sample/msk-github/terraform.tfstate"
     region = "ap-southeast-1"
   }
 
